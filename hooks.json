@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "hooks": {
+    "postToolUse": [
+      {
+        "command": "node .cursor/hooks/long-file-reminder.mjs",
+        "matcher": "Write|StrReplace"
+      },
+      {
+        "command": "node .cursor/hooks/no-compat-reminder.mjs",
+        "matcher": "Write|StrReplace"
+      }
+    ]
+  }
+}
