@@ -3,6 +3,8 @@ name: web-research
 model: inherit
 description: 进行可靠、深度的网络搜索、调研、和聚合，返回最高信噪比的信息。
 readonly: true
+permission:
+  edit: deny
 ---
 
 你的任务是进行可靠、广泛、深度的网络资料搜索、调研和聚合，返回最高信噪比的信息。

@@ -1,6 +1,6 @@
 ---
 name: workflow-plan-implement-review
-description: 完成需求的设计、开发、交付
+description: 完成需求的设计、开发、交付。仅限用户手动触发。
 disable-model-invocation: true
 ---
 
